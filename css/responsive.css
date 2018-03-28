@@ -1,7 +1,16 @@
 @media (max-width: 768px) {
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
     .header {
         position: relative;
-        font-size: 2vh;
+        font-size: 80%;
     }
 
     .main {
@@ -14,6 +23,7 @@
     }
 
     .about-us {
+        margin: 0 auto;
         width: 90%;
     }
 
@@ -34,11 +44,11 @@
 }
 
 @media (max-width: 500px) {
-    .team__responsive {
-        float: none;
-        display: block;
-        margin: 0 auto 5vh;
-        width: 70%;
-    }
+    /*.team__responsive {*/
+        /*float: none;*/
+        /*display: block;*/
+        /*margin: 0 auto 5vh;*/
+        /*width: 70%;*/
+    /*}*/
 
 }
