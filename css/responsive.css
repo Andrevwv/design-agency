@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+    .header {
+        position: relative;
+        font-size: 2vh;
+    }
+
+    .main {
+        padding: 0;
+    }
+
+    .team__responsive {
+        width: 46%;
+        margin: 2%;
+    }
+
+    .about-us {
+        width: 90%;
+    }
+
+    .logo {
+        margin: 0 auto;
+        float: none;
+    }
+
+    .menu {
+        margin: 0 auto;
+        float: none;
+        text-align: center;
+    }
+
+    .menu__item {
+        width: inherit;
+    }
+}
+
+@media (max-width: 500px) {
+    .team__responsive {
+        float: none;
+        display: block;
+        margin: 0 auto 5vh;
+        width: 70%;
+    }
+
+}
