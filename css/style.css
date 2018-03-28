@@ -147,28 +147,25 @@ body {
 }
 
 .about-us__header:before {
-    top: 1.3em;
-    left: 0.8em;
+    bottom: -0.2em;
+    left: 10%;
     position: absolute;
     content: '';
     background-color: #ff6d00;
-    width: 2.2em;
+    width: 80%;
     height: 0.1em;
 }
 
 .features {
     width: 70%;
-    margin: 8vh auto;
-    /*text-align: center;*/
+    margin: 4vh auto;
 }
 
 .features__item {
-    /*display: inline-block;*/
     text-align: center;
     float: left;
     width: 29.333%;
     margin: 2%;
-    /*margin-left: 20px;*/
 }
 
 .feature__item__icon {
@@ -212,12 +209,12 @@ body {
 }
 
 .team__header:before {
-    top: 1.3em;
-    left: 1em;
+    bottom: -0.3em;
+    left: 10%;
     position: absolute;
     content: '';
     background-color: #ff6d00;
-    width: 7.5em;
+    width: 80%;
     height: 0.1em;
 }
 

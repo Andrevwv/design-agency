@@ -43,12 +43,13 @@
     }
 }
 
-@media (max-width: 500px) {
-    /*.team__responsive {*/
-        /*float: none;*/
-        /*display: block;*/
-        /*margin: 0 auto 5vh;*/
-        /*width: 70%;*/
-    /*}*/
+@media (max-width: 568px) {
+
+    .features__item {
+        display: block;
+        width: 70%;
+        margin: 0 auto 4vh auto;
+        float: none;
+    }
 
 }
