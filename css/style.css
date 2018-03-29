@@ -28,10 +28,8 @@ body {
 
 .header {
     width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
     float: left;
+    overflow: hidden;
     border-bottom: 0.2vh solid rgba(52, 52, 52, 0.54);
     background-color: rgba(6, 6, 6, 0.94);
     outline: 0.2vh solid rgba(0, 0, 0, 0.89);
@@ -41,7 +39,6 @@ body {
 .main {
     float: left;
     clear: both;
-    padding-top: 2vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.58);
 }
@@ -315,6 +312,7 @@ body {
     height: auto;
     float: left;
     font-size: 1.1em;
+    margin-bottom: -5px;
 }
 
 .gallery__image {
