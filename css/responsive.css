@@ -1,3 +1,9 @@
+@media (max-width: 1440px) {
+    html {
+        font-size: 90%;
+    }
+}
+
 @media (max-width: 768px) {
 
     h1 {
@@ -18,8 +24,8 @@
     }
 
     .team__responsive {
-        width: 46%;
-        margin: 2%;
+        width: 42%;
+        margin: 2% 4%;
     }
 
     .about-us {
@@ -44,12 +50,25 @@
 }
 
 @media (max-width: 568px) {
-
     .features__item {
         display: block;
         width: 70%;
-        margin: 0 auto 4vh auto;
+        margin: 0 auto 4em auto;
         float: none;
     }
 
+    .feature__item__icon,
+    .feature__item__number {
+        font-size: 5em;
+        margin: 0;
+        padding: 0;
+    }
+
+    .social,
+    .phone,
+    .address {
+        display: block;
+        width: 100%;
+        line-height: 2em;
+    }
 }
