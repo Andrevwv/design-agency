@@ -47,6 +47,11 @@
     .menu__item {
         width: inherit;
     }
+
+    .gallery__responsive {
+        width: 50%;
+        /*font-size: 0.8em;*/
+    }
 }
 
 @media (max-width: 568px) {
@@ -70,5 +75,10 @@
         display: block;
         width: 100%;
         line-height: 2em;
+    }
+
+    .gallery__responsive {
+        width: 100%;
+        /*font-size: 0.8em;*/
     }
 }
