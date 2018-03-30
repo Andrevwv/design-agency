@@ -10,25 +10,25 @@
 
     <title>house - Дизайн интерьера в Харькове</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="icons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link href="css/fontawesome-all.css" rel="stylesheet"></head>
 <body>
     <header class="header">
-        <img class="logo" src="logo.png" height="50" alt="logo">
-        <ul class="menu">
-            <li class="active"><a class="menu__item" href="#">О НАС</a></li>
-            <li><a class="menu__item" href="pages/interier.html">ИНТЕРЬЕР</a></li>
-            <li><a class="menu__item" href="pages/architecture.html">АРХИТЕКТУРА</a></li>
-            <li><a class="menu__item" href="#">СТОИМОСТЬ</a></li>
-            <li><a class="menu__item" href="#">БЛОГ</a></li>
-            <li><a class="menu__item" href="#">КОНТАКТЫ</a></li>
-        </ul>
+        <img class="logo" src="icons/logo.png" height="50" alt="logo">
+        <nav class="menu">
+            <a class="menu__item active" href="#">О НАС</a>
+            <a class="menu__item" href="pages/interier.html">ИНТЕРЬЕР</a>
+            <a class="menu__item" href="pages/architecture.html">АРХИТЕКТУРА</a>
+            <a class="menu__item" href="pages/cost.html">СТОИМОСТЬ</a>
+            <a class="menu__item" href="pages/blog.html">БЛОГ</a>
+            <a class="menu__item" href="pages/contects.html">КОНТАКТЫ</a>
+        </nav>
     </header>
     <main class="main">
-    <div class="container">
+    <section class="container">
             <video class="video-bg" width="1920" height="1280" autoplay muted loop>
                 <source src="videos/videoplayback.mp4" type="video/mp4" />
                 <source src="videos/videoplayback.webm" type="video/webm"/>
@@ -55,8 +55,8 @@
                 <span class="feature__item__name">ПЛОЩАДЬ РАБОТ</span>
             </div>
         </article>
-    </div>
-        <article class="team">
+    </section>
+        <section class="team">
             <h2 class="team__header">НАША КОМАНДА</h2>
             <div class="images clearfix">
                 <div class="team__responsive">
@@ -108,7 +108,7 @@
                     </div>
                 </div>
             </div>
-        </article>
+        </section>
     </main>
     <footer class="footer">
         <div class="phone"><span class="block">Телефон:</span><a class="block" href="tel:+380955555555">+38(095)555-55-55</a></div>

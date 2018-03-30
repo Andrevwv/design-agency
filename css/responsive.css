@@ -34,6 +34,7 @@
     }
 
     .logo {
+        display: block;
         margin: 0 auto;
         float: none;
     }
@@ -50,7 +51,10 @@
 
     .gallery__responsive {
         width: 50%;
-        /*font-size: 0.8em;*/
+    }
+
+    .cost {
+        width: 95%;
     }
 }
 
@@ -79,6 +83,13 @@
 
     .gallery__responsive {
         width: 100%;
-        /*font-size: 0.8em;*/
+    }
+
+    .cost {
+        padding: 1em;
+    }
+
+    .cost__list {
+        width: 100%;
     }
 }
