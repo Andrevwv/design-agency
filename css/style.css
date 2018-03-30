@@ -41,6 +41,7 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.58);
     line-height: 1.7em;
+    padding-top:1px;
 }
 
 .footer {
@@ -342,4 +343,21 @@ background-color: rgba(161, 155, 150, 0.35);
 .list-name {
     margin: 0;
     padding: 0;
+}
+
+.map,
+.contacts {
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
+
+.map-google {
+    width: 100%;
+    min-height: 600px;
+    height: 100%;
+}
+
+.contacts {
+    height: 1000px;
 }
