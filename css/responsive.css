@@ -43,26 +43,11 @@
     .contacts {
         padding: 1em;
         width: 100%;
-        float: left;
-        clear: both;
         height: 450px;
-        text-align: center;
-    }
-
-    .contacts__content {
-        top: 40%;
-    }
-
-    .btn-feedback {
-        left: 0;
-        right: 0;
-        margin: auto;
     }
 
     .map {
         width: 100%;
-
-        float: none;
     }
 
 }
