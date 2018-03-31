@@ -29,6 +29,7 @@ body {
 .header {
     width: 100%;
     float: left;
+    min-height: 7.1vh;
     overflow: hidden;
     border-bottom: 1px solid rgba(47, 47, 47, 0.78);
     background-color: rgba(6, 6, 6, 0.94);
@@ -39,6 +40,7 @@ body {
     float: left;
     clear: both;
     width: 100%;
+    min-height: 80.5vh;
     background-color: rgba(0, 0, 0, 0.58);
     line-height: 1.7em;
     padding-top:1px;
@@ -49,6 +51,7 @@ body {
     clear: both;
     text-align: center;
     width: 100%;
+    min-height: 12vh;
     background-color: rgb(0, 0, 0);
 }
 
@@ -67,6 +70,11 @@ body {
     float: right;
     vertical-align: middle;
     list-style: none;
+}
+
+.nav-burger,
+.nav-burger-checkbox {
+    display: none;
 }
 
 .menu__item {
@@ -121,8 +129,8 @@ background-color: rgba(161, 155, 150, 0.35);
     width: 100%;
     height: 100%;
     overflow: hidden;
-
 }
+
 .about-us {
     text-align: center;
     margin: 4em auto 0 auto;
@@ -257,9 +265,7 @@ background-color: rgba(161, 155, 150, 0.35);
     -webkit-transform: translateX(-100%);
     -ms-transform: translateX(-100%);
     transform: translateX(-100%);
-    -webkit-transition: all 0.2s 0.35s cubic-bezier(.14,.56,.53,.87);
-    -o-transition: all 0.2s 0.35s cubic-bezier(.14,.56,.53,.87);
-    transition: all 0.2s 0.35s cubic-bezier(.14,.56,.53,.87);
+
 }
 
 .job {
@@ -270,6 +276,9 @@ background-color: rgba(161, 155, 150, 0.35);
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
+    -webkit-transition: all 0.2s 0.35s cubic-bezier(.14,.56,.53,.87);
+    -o-transition: all 0.2s 0.35s cubic-bezier(.14,.56,.53,.87);
+    transition: all 0.2s 0.35s cubic-bezier(.14,.56,.53,.87);
 }
 
 .social,
@@ -348,16 +357,100 @@ background-color: rgba(161, 155, 150, 0.35);
 .map,
 .contacts {
     width: 50%;
+    height: 80.5vh;
     float: left;
-    display: inline-block;
-}
-
-.map-google {
-    width: 100%;
-    min-height: 600px;
-    height: 100%;
 }
 
 .contacts {
-    height: 1000px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 2em 6em;
+    background-color: rgb(29, 29, 29);
 }
+
+
+.contacts__content {
+    top: 50%;
+    margin-top: -154px;
+    height: 308px;
+    position: relative;
+}
+
+
+.btn-feedback {
+    position: absolute;
+    display: block;
+    bottom: 5%;
+    left: 10%;
+    padding: 1em;
+    width: 15em;
+    height: 2em;
+    text-align: center;
+    background-color: black;
+    overflow: hidden;
+    transition: height 1s, width 1s;
+}
+
+.btn-feedback__main {
+    display: block;
+
+    margin: 0 0 1.2em 0;
+}
+
+.btn-feedback:hover {
+    height: 80%;
+    width: calc(80% - 2em);
+}
+
+.btn-feedback__send {
+    position: absolute;
+    bottom: 1em;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    padding: 0.5em;
+    background-color: #161616;
+}
+
+.btn-feedback__send:hover {
+    background-color: #2e2e2e;
+
+}
+
+.btn-feedback:hover .btn-feedback__send{
+    opacity: 1;
+    transition: opacity 1s 0.3s;
+}
+
+input[type="text"] {
+    float: left;
+    width: 100%;
+    background: none;
+    margin-bottom: 20px;
+    font-size: 14px;
+    height: 30px;
+    position: relative;
+    z-index: 20;
+    padding-left: 8px;
+    border-radius: 0;
+    color: #fff;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    -webkit-appearance: none;
+    outline: 0;
+}
+
+textarea {
+    height: 70px;
+    resize: none;
+    overflow: auto;
+    background: none;
+    border: 0;
+    box-shadow: none;
+    outline: 0;
+}
+

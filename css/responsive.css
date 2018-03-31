@@ -1,10 +1,74 @@
-@media (max-width: 1440px) {
+@media all and (max-width: 1440px) {
     html {
         font-size: 90%;
     }
 }
 
-@media (max-width: 768px) {
+@media all and (max-width: 950px) {
+    .logo {
+        margin-left: 1em;
+    }
+
+    .nav-burger {
+        height: 32px;
+        width: 32px;
+        top: 0.2em;
+        background-image: url(../icons/menu2.png);
+        position: relative;
+        display: block;
+        float: right;
+        margin-right: 1em;
+    }
+
+    .menu__item {
+        display: block;
+        border-top: 1px solid #111111;
+    }
+
+    .menu {
+        display: none;
+        margin: 3em auto 0 auto;
+        float: none;
+        text-align: center;
+    }
+
+    .nav-burger-checkbox:checked + .nav-burger {
+        background-image: url(../icons/close.png);
+    }
+
+    .nav-burger-checkbox:checked ~.menu {
+        display: block;
+    }
+
+    .contacts {
+        padding: 1em;
+        width: 100%;
+        float: left;
+        clear: both;
+        height: 450px;
+        text-align: center;
+    }
+
+    .contacts__content {
+        top: 40%;
+    }
+
+    .btn-feedback {
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .map {
+        width: 100%;
+
+        float: none;
+    }
+
+}
+
+
+@media all and (max-width: 768px) {
 
     h1 {
         font-size: 2em;
@@ -33,22 +97,6 @@
         width: 90%;
     }
 
-    .logo {
-        display: block;
-        margin: 0 auto;
-        float: none;
-    }
-
-    .menu {
-        margin: 0 auto;
-        float: none;
-        text-align: center;
-    }
-
-    .menu__item {
-        width: inherit;
-    }
-
     .gallery__responsive {
         width: 50%;
     }
@@ -58,7 +106,7 @@
     }
 }
 
-@media (max-width: 568px) {
+@media all and (max-width: 568px) {
     .features__item {
         display: block;
         width: 70%;
