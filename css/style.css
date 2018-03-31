@@ -404,7 +404,6 @@ body {
 
 .btn-feedback__main {
     display: block;
-
     margin: 0 0 1.2em 0;
 }
 
@@ -421,6 +420,7 @@ body {
     opacity: 0;
     width: 100%;
     border: 0;
+    border-radius: 0;
     cursor: pointer;
     outline: 0;
     padding: 0.5em;
@@ -448,7 +448,6 @@ input[type="text"] {
     height: 30px;
     position: relative;
     z-index: 20;
-    padding-left: 8px;
     border-radius: 0;
     color: #fff;
     border: 0;
