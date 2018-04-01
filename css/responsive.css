@@ -99,11 +99,14 @@
         float: none;
     }
 
+    .video-bg {
+        display: none;
+    }
+
     .feature__item__icon,
     .feature__item__number {
         font-size: 5em;
-        margin: 0;
-        padding: 0;
+        padding-top: 0.1em;
     }
 
     .social,
@@ -124,6 +127,18 @@
 
     .cost__list {
         width: 100%;
+    }
+
+    .team {
+        margin-top: 0;
+    }
+
+    .container{
+        background-color: rgba(17, 17, 17, 0.64);
+    }
+
+    .sm-justify {
+        text-align: justify;
     }
 
 }
