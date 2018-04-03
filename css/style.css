@@ -35,7 +35,7 @@ body {
 .header {
     width: 100%;
     float: left;
-    min-height: 7vh;
+    /*min-height: 7vh;*/
     overflow: hidden;
     border-bottom: 1px solid rgba(47, 47, 47, 0.78);
     background-color: rgb(6, 6, 6);
