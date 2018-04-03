@@ -1,22 +1,5 @@
-.example {
-    display: -ms-grid;
-    display: grid;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
-    background: -webkit-linear-gradient(top, white, black);
-    background: -o-linear-gradient(top, white, black);
-    background: linear-gradient(to bottom, white, black);
-}
 html {
     height: 100%;
-    background: gray url("../images/wallhaven-637140.jpg") center center fixed;
-    background-size: cover;
     font-family: 'Montserrat', sans-serif;
     font-size: 100%;
 }
@@ -39,7 +22,14 @@ h2 {
 body {
     height: 100%;
     color: white;
+    background-color: #1D1D1D;
     font-size: calc(1vh + 0.5em);
+
+}
+
+.background {
+    background: #1D1D1D url("../images/wallhaven-637140.jpg") center center fixed;
+    background-size: cover;
 }
 
 .header {
@@ -57,7 +47,7 @@ body {
     clear: both;
     width: 100%;
     min-height: 81vh;
-    background-color: rgba(0, 0, 0, 0.58);
+    background-color: rgba(0, 0, 0, 0.55);
     line-height: 1.7em;
     padding-top:1px;
 }
@@ -246,7 +236,7 @@ body {
     width: 100%;
     height: auto;
     border-radius: 20%;
-    background-color: black;
+    background-color: #1D1D1D;
 
 }
 
