@@ -380,6 +380,8 @@ body {
 
 .contacts__content {
     top: 50%;
+    -webkit-transform: translateY(-60%);
+    -ms-transform: translateY(-60%);
     transform: translateY(-60%);
     height: 308px;
     width: 100%;

@@ -1,3 +1,18 @@
+.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -webkit-linear-gradient(top, white, black);
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
+}
 @media all and (max-width: 1440px) {
     html {
         font-size: 90%;
@@ -53,9 +68,15 @@
     }
 
     .contacts__content {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
         transform: translateY(0);
         top: 0;
+        height: 25em;
+    }
 
+    input[type="text"] {
+        margin-bottom: 0.5em;
     }
 
 }
@@ -147,6 +168,5 @@
     .sm-justify {
         text-align: justify;
     }
-
 
 }
